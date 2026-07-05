@@ -26,8 +26,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://zeyadkhaled.dev"),
   title: {
-    default: "Zeyad Khaled — Premium Digital Experiences",
+    default: "Zeyad Khaled | Full Stack Developer",
     template: "%s — Zeyad Khaled",
+    icon: {
+      icon: "/icon.png",
+    }
   },
   description:
     "I design and build fast, modern, visually refined digital products for startups, businesses and brands — improving trust, user experience and conversions.",
